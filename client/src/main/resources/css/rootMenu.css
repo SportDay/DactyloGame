@@ -1,0 +1,35 @@
+
+.btn-top{
+    -fx-background-color: transparent;
+}
+
+.btn-top:hover{
+    -fx-effect: dropshadow(gaussian , #5f9792, 10, 0, 0, 0);
+    -fx-background-color: #5f9792;
+}
+
+.uuidLabel{
+    -fx-text-fill: #4f9a94;
+}
+
+.bg-main{
+    -fx-background-color: #263238;
+    -fx-background-radius: 15;
+    -fx-border-width: 5;
+    -fx-border-color: #80cbc4;
+    -fx-border-radius: 10;
+}
+
+.bg-main.fullscreen{
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+}
+
+.line{
+    -fx-background-color: #80cbc4;
+    -fx-border-color: #80cbc4;
+}
+
+.menuTitle{
+    -fx-text-fill: #f1f7ff;
+}

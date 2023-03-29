@@ -1,0 +1,7 @@
+.title.label .text {
+    -fx-font-size: 20px;
+}
+
+.title{
+    -fx-label-padding: 10 10 10 10;
+}

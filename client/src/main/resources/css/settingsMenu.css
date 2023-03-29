@@ -1,0 +1,31 @@
+.btn{
+    -fx-max-height: 40;
+    -fx-font-size: 15;
+    -fx-min-height: 10;
+}
+
+.cText{
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+}
+
+.content{
+    -fx-min-width: 420;
+    -fx-max-width: 880;
+}
+
+
+
+.sTitle{
+    -fx-font-size: 20;
+}
+
+.gameContainer{
+    -fx-border-width: 5;
+    -fx-border-color: #80cbc4;
+    -fx-border-radius: 10;
+}
+
+.critical{
+    -fx-border-color: #f44336;
+}

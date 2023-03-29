@@ -1,0 +1,25 @@
+.wordListContainer{
+    -fx-border-width: 3;
+    -fx-border-color: #80cbc4;
+    -fx-border-radius: 10;
+}
+
+#tmpTitle{
+    -fx-text-fill: #80cbc4;
+}
+
+.cText{
+    -fx-font-size: 20;
+}
+
+.level{
+    -fx-font-size: 20;
+}
+
+.logsTitle{
+    -fx-font-size: 20;
+}
+
+.mainContainer{
+    -fx-max-width: 1000;
+}

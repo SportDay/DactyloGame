@@ -1,0 +1,50 @@
+.serverStatus{
+    -fx-background-radius: 8;
+    -fx-background-color: #2e3c43;
+    -fx-border-color: #80cbc4;
+    -fx-border-radius: 5;
+    -fx-border-width: 2;
+
+
+    -fx-padding: 5;
+    -fx-max-height: 20;
+    -fx-min-height: 20;
+}
+
+.serverStatus.online{
+    -fx-background-color: #64dd17;
+}
+
+.serverStatus.offline{
+    -fx-background-color: #d50000;
+}
+
+.btn{
+    -fx-max-height: 40;
+    -fx-font-size: 15;
+    -fx-min-height: 10;
+}
+
+.cText {
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+}
+
+.content{
+    -fx-min-width: 320;
+    -fx-max-width: 640;
+}
+
+.logsArea {
+    -fx-text-fill: #e6edf3;
+    -fx-font-size: 15;
+}
+
+.logsAreaContainer{
+    -fx-background-color: #2e3c43;
+    -fx-background-radius: 15;
+    -fx-border-color: #80cbc4;
+    -fx-border-radius: 10;
+    -fx-border-width: 3;
+}
+

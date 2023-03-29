@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="mainPanel" fx:id="mainPanel" prefHeight="527.0" prefWidth="529.0" styleClass="bg" stylesheets="@../css/MainMenu.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.projet.controller.MainMenu">
+   <children>
+      <BorderPane prefHeight="200.0" prefWidth="200.0" styleClass="menu" stylesheets="@../css/MainMenu.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <VBox alignment="CENTER" minWidth="-Infinity" styleClass="menu" stylesheets="@../css/MainMenu.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Label cache="true" styleClass="title" text="Dactylo-Game">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                     <effect>
+                        <Glow level="0.61">
+                           <input>
+                              <GaussianBlur radius="0.0" />
+                           </input>
+                        </Glow>
+                     </effect>
+                     <stylesheets>
+                        <URL value="@../css/MainMenu.css" />
+                        <URL value="@../css/all.css" />
+                     </stylesheets>
+                  </Label>
+                  <GridPane>
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                  </GridPane>
+                  <Button fx:id="soloBtn" defaultButton="true" mnemonicParsing="false" onMouseClicked="#playLocal" pickOnBounds="false" styleClass="btn" text="Solo" textOverrun="CLIP">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <stylesheets>
+                        <URL value="@../css/MainMenu.css" />
+                        <URL value="@../css/all.css" />
+                     </stylesheets>
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="trainBtn" defaultButton="true" mnemonicParsing="false" onMouseClicked="#playTrain" pickOnBounds="false" styleClass="btn" text="Entrainement" textOverrun="CLIP">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <stylesheets>
+                        <URL value="@../css/MainMenu.css" />
+                        <URL value="@../css/all.css" />
+                     </stylesheets>
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="multiBTN" mnemonicParsing="false" onMouseClicked="#playMulti" pickOnBounds="false" styleClass="btn" text="Multijoueur">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <stylesheets>
+                        <URL value="@../css/MainMenu.css" />
+                        <URL value="@../css/all.css" />
+                     </stylesheets>
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="statsBTN" mnemonicParsing="false" onMouseClicked="#showStats" pickOnBounds="false" styleClass="btn" text="Statistiques">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <stylesheets>
+                        <URL value="@../css/MainMenu.css" />
+                        <URL value="@../css/all.css" />
+                     </stylesheets>
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="settings" layoutX="117.0" layoutY="353.0" mnemonicParsing="false" onMouseClicked="#showSettings" pickOnBounds="false" styleClass="btn" text="Paramètres">
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                     <stylesheets>
+                        <URL value="@../css/MainMenu.css" />
+                        <URL value="@../css/all.css" />
+                     </stylesheets>
+                     <VBox.margin>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
